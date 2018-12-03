@@ -78,19 +78,36 @@
           <p class="mb-3">Kursunuzun içereceği dersleri burada oluşturacaksınız, lütfen sırasıyla ekleyiniz.</p>
           <h3>Mevcut Dersler</h3>
           <ul class="list-group">
-            <li class="list-group-item d-flex justify-content-between align-items-center"> Cras justo odio <span class="badge badge-primary badge-pill">14</span> </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center"> Dapibus ac facilisis in <span class="badge badge-primary badge-pill">2</span> </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center"> Morbi leo risus <span class="badge badge-primary badge-pill">1</span> </li>
+            <li class="list-group-item align-items-center d-flex justify-content-between "> Cras justo odio <a class="btn btn-outline-danger btn-sm badge badge-pill" href="#" data-toggle="modal" data-target="#deleteLesson"><i class="fa fa-times fa-fw fa-1x py-1"></i></a></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center"> Dapibus ac facilisis in <a class="btn btn-outline-danger btn-sm badge badge-pill" href="#" data-toggle="modal" data-target="#deleteLesson"><i class="fa fa-times fa-fw fa-1x py-1"></i></a></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center"> Morbi leo risus <a class="btn btn-outline-danger btn-sm badge badge-pill" href="#" data-toggle="modal" data-target="#deleteLesson"><i class="fa fa-times fa-fw fa-1x py-1"></i></a></li>
             <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-success"><a class="btn btn-success" href="#">Ders Ekle <i class="fa fa-plus fa-fw"></i> </a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  <div class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><a class="btn btn-primary btn-lg text-center" href="new-course-3.html">Dersi Kaydet</a></div>
+      </div>
+    </div>
+  </div>
   <div class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-12"><a class="btn btn-primary pull-right btn-lg" href="#">İlerle</a></div>
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="deleteLesson">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Dersi Silmek İstediğinden Emin Misin?</h5> <button type="button" class="close" data-dismiss="modal"> <span>×</span> </button>
+        </div>
+        <div class="modal-footer" style=""> <button type="button" class="btn btn-primary">Dersi Sil</button> <button type="button" class="btn btn-secondary" data-dismiss="modal">İptal</button> </div>
       </div>
     </div>
   </div>
